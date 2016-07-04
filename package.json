@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.2.0",
+    "react-addons-pure-render-mixin": "^15.2.0",
+    "react-bootstrap": "^0.29.5",
+    "react-dom": "^15.2.0",
+    "react-router": "^2.5.2"
+  }
+}

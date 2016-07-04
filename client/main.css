@@ -1,0 +1,11 @@
+/* CSS declarations go here */
+#login-buttons {
+  margin: 18px;
+  font-size: 14px;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
