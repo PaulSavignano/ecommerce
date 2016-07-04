@@ -1,11 +1,38 @@
 /* CSS declarations go here */
-#login-buttons {
-  margin: 18px;
+body {
+  padding-top: 50px;
+}
+
+#login-dropdown-list {
+  margin: 15px;
   font-size: 14px;
 }
 
+#login-dropdown-list > .dropdown-toggle {
+  color: #9d9d9d;
+}
+
+#login-dropdown-list > .dropdown-toggle:hover {
+  color: #fff;
+}
+
 .products-list {
+  margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.upload-area .alert {
+  position: relative;
+}
+
+.upload-area input[type="file"] {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  opacity: 0;
 }

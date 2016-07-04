@@ -1,1 +1,1 @@
-# ecommerce
+# React Meteor Ecommerce Application.

@@ -16,6 +16,9 @@ Meteor.methods({
   },
   'products.update': function(product, key) {
     return Products.update(product, { $set: { key } })
+  },
+  'products.imageupdate': function(product, url) {
+    return Products.update(product, { $set: { image: url } })
   }
 })
 

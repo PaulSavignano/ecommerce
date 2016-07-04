@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
 import App from './components/app'
+import Form from './components/form'
 import Home from './components/home'
 import ProductsList from './components/products/products_list'
 import ProductsMain from './components/products/products_main'
@@ -14,6 +15,7 @@ const routes = (
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
+      <Route path="form" component={Form} />
       <Route path="products/:productId" component={ProductsMain} />
       <Route path="about" component={About} />
       <Route path="services" component={Services} />

@@ -2,7 +2,7 @@
   "name": "ecommerce",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor --settings settings-development.json"
   },
   "dependencies": {
     "accounting": "^0.4.1",
